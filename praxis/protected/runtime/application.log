@@ -1,0 +1,646 @@
+2013/02/05 01:44:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in /vagrant/projects/praxis/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('gii')
+#1 /vagrant/projects/praxis/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/projects/praxis/praxis/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=gii
+---
+2013/02/05 01:45:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in /vagrant/projects/praxis/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('gii')
+#1 /vagrant/projects/praxis/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/projects/praxis/praxis/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=gii
+---
+2013/02/05 01:47:49 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not allowed to access this page.' in /vagrant/projects/praxis/yii/framework/gii/GiiModule.php:168
+Stack trace:
+#0 /vagrant/projects/praxis/yii/framework/web/CController.php(263): GiiModule->beforeControllerAction(Object(DefaultController), Object(CInlineAction))
+#1 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(282): CController->run('')
+#2 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('gii')
+#3 /vagrant/projects/praxis/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /vagrant/projects/praxis/praxis/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=gii
+---
+2013/02/05 01:50:54 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not allowed to access this page.' in /vagrant/projects/praxis/yii/framework/gii/GiiModule.php:168
+Stack trace:
+#0 /vagrant/projects/praxis/yii/framework/web/CController.php(263): GiiModule->beforeControllerAction(Object(DefaultController), Object(CInlineAction))
+#1 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(282): CController->run('')
+#2 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('gii')
+#3 /vagrant/projects/praxis/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /vagrant/projects/praxis/praxis/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=gii
+---
+2013/02/05 01:50:55 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not allowed to access this page.' in /vagrant/projects/praxis/yii/framework/gii/GiiModule.php:168
+Stack trace:
+#0 /vagrant/projects/praxis/yii/framework/web/CController.php(263): GiiModule->beforeControllerAction(Object(DefaultController), Object(CInlineAction))
+#1 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(282): CController->run('')
+#2 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('gii')
+#3 /vagrant/projects/praxis/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /vagrant/projects/praxis/praxis/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=gii
+---
+2013/02/05 01:51:35 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not allowed to access this page.' in /vagrant/projects/praxis/yii/framework/gii/GiiModule.php:168
+Stack trace:
+#0 /vagrant/projects/praxis/yii/framework/web/CController.php(263): GiiModule->beforeControllerAction(Object(DefaultController), Object(CInlineAction))
+#1 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(282): CController->run('')
+#2 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('gii')
+#3 /vagrant/projects/praxis/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /vagrant/projects/praxis/praxis/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=gii
+---
+2013/02/05 01:51:36 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not allowed to access this page.' in /vagrant/projects/praxis/yii/framework/gii/GiiModule.php:168
+Stack trace:
+#0 /vagrant/projects/praxis/yii/framework/web/CController.php(263): GiiModule->beforeControllerAction(Object(DefaultController), Object(CInlineAction))
+#1 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(282): CController->run('')
+#2 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('gii')
+#3 /vagrant/projects/praxis/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /vagrant/projects/praxis/praxis/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=gii
+---
+2013/02/05 01:51:36 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not allowed to access this page.' in /vagrant/projects/praxis/yii/framework/gii/GiiModule.php:168
+Stack trace:
+#0 /vagrant/projects/praxis/yii/framework/web/CController.php(263): GiiModule->beforeControllerAction(Object(DefaultController), Object(CInlineAction))
+#1 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(282): CController->run('')
+#2 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('gii')
+#3 /vagrant/projects/praxis/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /vagrant/projects/praxis/praxis/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=gii
+---
+2013/02/05 01:53:16 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not allowed to access this page.' in /vagrant/projects/praxis/yii/framework/gii/GiiModule.php:168
+Stack trace:
+#0 /vagrant/projects/praxis/yii/framework/web/CController.php(263): GiiModule->beforeControllerAction(Object(DefaultController), Object(CInlineAction))
+#1 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(282): CController->run('')
+#2 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('gii')
+#3 /vagrant/projects/praxis/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /vagrant/projects/praxis/praxis/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=gii
+---
+2013/02/05 01:53:17 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not allowed to access this page.' in /vagrant/projects/praxis/yii/framework/gii/GiiModule.php:168
+Stack trace:
+#0 /vagrant/projects/praxis/yii/framework/web/CController.php(263): GiiModule->beforeControllerAction(Object(DefaultController), Object(CInlineAction))
+#1 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(282): CController->run('')
+#2 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('gii')
+#3 /vagrant/projects/praxis/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /vagrant/projects/praxis/praxis/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=gii
+---
+2013/02/05 01:53:17 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not allowed to access this page.' in /vagrant/projects/praxis/yii/framework/gii/GiiModule.php:168
+Stack trace:
+#0 /vagrant/projects/praxis/yii/framework/web/CController.php(263): GiiModule->beforeControllerAction(Object(DefaultController), Object(CInlineAction))
+#1 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(282): CController->run('')
+#2 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('gii')
+#3 /vagrant/projects/praxis/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /vagrant/projects/praxis/praxis/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=gii
+---
+2013/02/05 01:53:17 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not allowed to access this page.' in /vagrant/projects/praxis/yii/framework/gii/GiiModule.php:168
+Stack trace:
+#0 /vagrant/projects/praxis/yii/framework/web/CController.php(263): GiiModule->beforeControllerAction(Object(DefaultController), Object(CInlineAction))
+#1 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(282): CController->run('')
+#2 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('gii')
+#3 /vagrant/projects/praxis/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /vagrant/projects/praxis/praxis/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=gii
+---
+2013/02/05 01:53:18 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not allowed to access this page.' in /vagrant/projects/praxis/yii/framework/gii/GiiModule.php:168
+Stack trace:
+#0 /vagrant/projects/praxis/yii/framework/web/CController.php(263): GiiModule->beforeControllerAction(Object(DefaultController), Object(CInlineAction))
+#1 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(282): CController->run('')
+#2 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('gii')
+#3 /vagrant/projects/praxis/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /vagrant/projects/praxis/praxis/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=gii
+---
+2013/02/05 01:53:28 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not allowed to access this page.' in /vagrant/projects/praxis/yii/framework/gii/GiiModule.php:168
+Stack trace:
+#0 /vagrant/projects/praxis/yii/framework/web/CController.php(263): GiiModule->beforeControllerAction(Object(DefaultController), Object(CInlineAction))
+#1 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(282): CController->run('')
+#2 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('gii')
+#3 /vagrant/projects/praxis/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /vagrant/projects/praxis/praxis/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=gii
+---
+2013/02/05 01:53:29 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not allowed to access this page.' in /vagrant/projects/praxis/yii/framework/gii/GiiModule.php:168
+Stack trace:
+#0 /vagrant/projects/praxis/yii/framework/web/CController.php(263): GiiModule->beforeControllerAction(Object(DefaultController), Object(CInlineAction))
+#1 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(282): CController->run('')
+#2 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('gii')
+#3 /vagrant/projects/praxis/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /vagrant/projects/praxis/praxis/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=gii
+---
+2013/02/05 01:53:29 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not allowed to access this page.' in /vagrant/projects/praxis/yii/framework/gii/GiiModule.php:168
+Stack trace:
+#0 /vagrant/projects/praxis/yii/framework/web/CController.php(263): GiiModule->beforeControllerAction(Object(DefaultController), Object(CInlineAction))
+#1 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(282): CController->run('')
+#2 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('gii')
+#3 /vagrant/projects/praxis/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /vagrant/projects/praxis/praxis/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=gii
+---
+2013/02/05 01:53:29 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not allowed to access this page.' in /vagrant/projects/praxis/yii/framework/gii/GiiModule.php:168
+Stack trace:
+#0 /vagrant/projects/praxis/yii/framework/web/CController.php(263): GiiModule->beforeControllerAction(Object(DefaultController), Object(CInlineAction))
+#1 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(282): CController->run('')
+#2 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('gii')
+#3 /vagrant/projects/praxis/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /vagrant/projects/praxis/praxis/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=gii
+---
+2013/02/05 01:53:30 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not allowed to access this page.' in /vagrant/projects/praxis/yii/framework/gii/GiiModule.php:168
+Stack trace:
+#0 /vagrant/projects/praxis/yii/framework/web/CController.php(263): GiiModule->beforeControllerAction(Object(DefaultController), Object(CInlineAction))
+#1 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(282): CController->run('')
+#2 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('gii')
+#3 /vagrant/projects/praxis/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /vagrant/projects/praxis/praxis/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=gii
+---
+2013/02/05 01:53:31 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not allowed to access this page.' in /vagrant/projects/praxis/yii/framework/gii/GiiModule.php:168
+Stack trace:
+#0 /vagrant/projects/praxis/yii/framework/web/CController.php(263): GiiModule->beforeControllerAction(Object(DefaultController), Object(CInlineAction))
+#1 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(282): CController->run('')
+#2 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('gii')
+#3 /vagrant/projects/praxis/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /vagrant/projects/praxis/praxis/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=gii
+---
+2013/02/05 01:53:53 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not allowed to access this page.' in /vagrant/projects/praxis/yii/framework/gii/GiiModule.php:168
+Stack trace:
+#0 /vagrant/projects/praxis/yii/framework/web/CController.php(263): GiiModule->beforeControllerAction(Object(DefaultController), Object(CInlineAction))
+#1 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(282): CController->run('')
+#2 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('gii')
+#3 /vagrant/projects/praxis/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /vagrant/projects/praxis/praxis/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=gii
+---
+2013/02/05 01:53:54 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not allowed to access this page.' in /vagrant/projects/praxis/yii/framework/gii/GiiModule.php:168
+Stack trace:
+#0 /vagrant/projects/praxis/yii/framework/web/CController.php(263): GiiModule->beforeControllerAction(Object(DefaultController), Object(CInlineAction))
+#1 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(282): CController->run('')
+#2 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('gii')
+#3 /vagrant/projects/praxis/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /vagrant/projects/praxis/praxis/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=gii
+---
+2013/02/05 01:53:54 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not allowed to access this page.' in /vagrant/projects/praxis/yii/framework/gii/GiiModule.php:168
+Stack trace:
+#0 /vagrant/projects/praxis/yii/framework/web/CController.php(263): GiiModule->beforeControllerAction(Object(DefaultController), Object(CInlineAction))
+#1 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(282): CController->run('')
+#2 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('gii')
+#3 /vagrant/projects/praxis/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /vagrant/projects/praxis/praxis/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=gii
+---
+2013/02/05 01:53:54 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not allowed to access this page.' in /vagrant/projects/praxis/yii/framework/gii/GiiModule.php:168
+Stack trace:
+#0 /vagrant/projects/praxis/yii/framework/web/CController.php(263): GiiModule->beforeControllerAction(Object(DefaultController), Object(CInlineAction))
+#1 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(282): CController->run('')
+#2 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('gii')
+#3 /vagrant/projects/praxis/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /vagrant/projects/praxis/praxis/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=gii
+---
+2013/02/05 01:55:48 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not allowed to access this page.' in /vagrant/projects/praxis/yii/framework/gii/GiiModule.php:168
+Stack trace:
+#0 /vagrant/projects/praxis/yii/framework/web/CController.php(263): GiiModule->beforeControllerAction(Object(DefaultController), Object(CInlineAction))
+#1 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(282): CController->run('')
+#2 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('gii')
+#3 /vagrant/projects/praxis/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /vagrant/projects/praxis/praxis/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=gii
+---
+2013/02/05 01:55:49 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not allowed to access this page.' in /vagrant/projects/praxis/yii/framework/gii/GiiModule.php:168
+Stack trace:
+#0 /vagrant/projects/praxis/yii/framework/web/CController.php(263): GiiModule->beforeControllerAction(Object(DefaultController), Object(CInlineAction))
+#1 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(282): CController->run('')
+#2 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('gii')
+#3 /vagrant/projects/praxis/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /vagrant/projects/praxis/praxis/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=gii
+---
+2013/02/05 01:55:49 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not allowed to access this page.' in /vagrant/projects/praxis/yii/framework/gii/GiiModule.php:168
+Stack trace:
+#0 /vagrant/projects/praxis/yii/framework/web/CController.php(263): GiiModule->beforeControllerAction(Object(DefaultController), Object(CInlineAction))
+#1 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(282): CController->run('')
+#2 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('gii')
+#3 /vagrant/projects/praxis/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /vagrant/projects/praxis/praxis/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=gii
+---
+2013/02/05 01:55:49 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not allowed to access this page.' in /vagrant/projects/praxis/yii/framework/gii/GiiModule.php:168
+Stack trace:
+#0 /vagrant/projects/praxis/yii/framework/web/CController.php(263): GiiModule->beforeControllerAction(Object(DefaultController), Object(CInlineAction))
+#1 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(282): CController->run('')
+#2 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('gii')
+#3 /vagrant/projects/praxis/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /vagrant/projects/praxis/praxis/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=gii
+---
+2013/02/05 01:55:50 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not allowed to access this page.' in /vagrant/projects/praxis/yii/framework/gii/GiiModule.php:168
+Stack trace:
+#0 /vagrant/projects/praxis/yii/framework/web/CController.php(263): GiiModule->beforeControllerAction(Object(DefaultController), Object(CInlineAction))
+#1 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(282): CController->run('')
+#2 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('gii')
+#3 /vagrant/projects/praxis/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /vagrant/projects/praxis/praxis/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=gii
+---
+2013/02/05 01:55:50 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not allowed to access this page.' in /vagrant/projects/praxis/yii/framework/gii/GiiModule.php:168
+Stack trace:
+#0 /vagrant/projects/praxis/yii/framework/web/CController.php(263): GiiModule->beforeControllerAction(Object(DefaultController), Object(CInlineAction))
+#1 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(282): CController->run('')
+#2 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('gii')
+#3 /vagrant/projects/praxis/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /vagrant/projects/praxis/praxis/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=gii
+---
+2013/02/05 01:55:53 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not allowed to access this page.' in /vagrant/projects/praxis/yii/framework/gii/GiiModule.php:168
+Stack trace:
+#0 /vagrant/projects/praxis/yii/framework/web/CController.php(263): GiiModule->beforeControllerAction(Object(DefaultController), Object(CInlineAction))
+#1 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(282): CController->run('')
+#2 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('gii')
+#3 /vagrant/projects/praxis/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /vagrant/projects/praxis/praxis/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=gii
+---
+2013/02/05 02:01:13 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not allowed to access this page.' in /vagrant/projects/praxis/yii/framework/gii/GiiModule.php:168
+Stack trace:
+#0 /vagrant/projects/praxis/yii/framework/web/CController.php(263): GiiModule->beforeControllerAction(Object(DefaultController), Object(CInlineAction))
+#1 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(282): CController->run('')
+#2 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('gii')
+#3 /vagrant/projects/praxis/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /vagrant/projects/praxis/praxis/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=gii
+---
+2013/02/05 02:01:14 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not allowed to access this page.' in /vagrant/projects/praxis/yii/framework/gii/GiiModule.php:168
+Stack trace:
+#0 /vagrant/projects/praxis/yii/framework/web/CController.php(263): GiiModule->beforeControllerAction(Object(DefaultController), Object(CInlineAction))
+#1 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(282): CController->run('')
+#2 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('gii')
+#3 /vagrant/projects/praxis/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /vagrant/projects/praxis/praxis/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=gii
+---
+2013/02/05 02:01:22 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not allowed to access this page.' in /vagrant/projects/praxis/yii/framework/gii/GiiModule.php:168
+Stack trace:
+#0 /vagrant/projects/praxis/yii/framework/web/CController.php(263): GiiModule->beforeControllerAction(Object(DefaultController), Object(CInlineAction))
+#1 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(282): CController->run('')
+#2 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('gii')
+#3 /vagrant/projects/praxis/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /vagrant/projects/praxis/praxis/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=gii
+---
+2013/02/05 02:01:22 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not allowed to access this page.' in /vagrant/projects/praxis/yii/framework/gii/GiiModule.php:168
+Stack trace:
+#0 /vagrant/projects/praxis/yii/framework/web/CController.php(263): GiiModule->beforeControllerAction(Object(DefaultController), Object(CInlineAction))
+#1 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(282): CController->run('')
+#2 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('gii')
+#3 /vagrant/projects/praxis/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /vagrant/projects/praxis/praxis/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=gii
+---
+2013/02/05 02:01:22 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not allowed to access this page.' in /vagrant/projects/praxis/yii/framework/gii/GiiModule.php:168
+Stack trace:
+#0 /vagrant/projects/praxis/yii/framework/web/CController.php(263): GiiModule->beforeControllerAction(Object(DefaultController), Object(CInlineAction))
+#1 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(282): CController->run('')
+#2 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('gii')
+#3 /vagrant/projects/praxis/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /vagrant/projects/praxis/praxis/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=gii
+---
+2013/02/05 02:01:23 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not allowed to access this page.' in /vagrant/projects/praxis/yii/framework/gii/GiiModule.php:168
+Stack trace:
+#0 /vagrant/projects/praxis/yii/framework/web/CController.php(263): GiiModule->beforeControllerAction(Object(DefaultController), Object(CInlineAction))
+#1 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(282): CController->run('')
+#2 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('gii')
+#3 /vagrant/projects/praxis/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /vagrant/projects/praxis/praxis/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=gii
+---
+2013/02/05 02:01:24 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not allowed to access this page.' in /vagrant/projects/praxis/yii/framework/gii/GiiModule.php:168
+Stack trace:
+#0 /vagrant/projects/praxis/yii/framework/web/CController.php(263): GiiModule->beforeControllerAction(Object(DefaultController), Object(CInlineAction))
+#1 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(282): CController->run('')
+#2 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('gii')
+#3 /vagrant/projects/praxis/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /vagrant/projects/praxis/praxis/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=gii
+---
+2013/02/05 02:01:30 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not allowed to access this page.' in /vagrant/projects/praxis/yii/framework/gii/GiiModule.php:168
+Stack trace:
+#0 /vagrant/projects/praxis/yii/framework/web/CController.php(263): GiiModule->beforeControllerAction(Object(DefaultController), Object(CInlineAction))
+#1 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(282): CController->run('')
+#2 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('gii')
+#3 /vagrant/projects/praxis/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /vagrant/projects/praxis/praxis/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=gii
+---
+2013/02/05 02:01:38 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not allowed to access this page.' in /vagrant/projects/praxis/yii/framework/gii/GiiModule.php:168
+Stack trace:
+#0 /vagrant/projects/praxis/yii/framework/web/CController.php(263): GiiModule->beforeControllerAction(Object(DefaultController), Object(CInlineAction))
+#1 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(282): CController->run('')
+#2 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('gii')
+#3 /vagrant/projects/praxis/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /vagrant/projects/praxis/praxis/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=gii
+---
+2013/02/05 02:02:16 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not allowed to access this page.' in /vagrant/projects/praxis/yii/framework/gii/GiiModule.php:168
+Stack trace:
+#0 /vagrant/projects/praxis/yii/framework/web/CController.php(263): GiiModule->beforeControllerAction(Object(DefaultController), Object(CInlineAction))
+#1 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(282): CController->run('')
+#2 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('gii')
+#3 /vagrant/projects/praxis/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /vagrant/projects/praxis/praxis/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=gii
+---
+2013/02/05 02:02:17 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not allowed to access this page.' in /vagrant/projects/praxis/yii/framework/gii/GiiModule.php:168
+Stack trace:
+#0 /vagrant/projects/praxis/yii/framework/web/CController.php(263): GiiModule->beforeControllerAction(Object(DefaultController), Object(CInlineAction))
+#1 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(282): CController->run('')
+#2 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('gii')
+#3 /vagrant/projects/praxis/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /vagrant/projects/praxis/praxis/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=gii
+---
+2013/02/05 02:02:19 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not allowed to access this page.' in /vagrant/projects/praxis/yii/framework/gii/GiiModule.php:168
+Stack trace:
+#0 /vagrant/projects/praxis/yii/framework/web/CController.php(263): GiiModule->beforeControllerAction(Object(DefaultController), Object(CInlineAction))
+#1 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(282): CController->run('')
+#2 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('gii')
+#3 /vagrant/projects/praxis/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /vagrant/projects/praxis/praxis/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=gii
+---
+2013/02/05 02:06:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /vagrant/projects/praxis/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /vagrant/projects/praxis/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/projects/praxis/praxis/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/05 02:06:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /vagrant/projects/praxis/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /vagrant/projects/praxis/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/projects/praxis/praxis/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/05 02:06:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "core".' in /vagrant/projects/praxis/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('core')
+#1 /vagrant/projects/praxis/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/projects/praxis/praxis/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/core/
+---
+2013/02/05 02:06:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /vagrant/projects/praxis/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /vagrant/projects/praxis/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/projects/praxis/praxis/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/05 02:13:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /vagrant/projects/praxis/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /vagrant/projects/praxis/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/projects/praxis/praxis/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/05 02:13:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /vagrant/projects/praxis/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /vagrant/projects/praxis/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/projects/praxis/praxis/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/05 02:13:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /vagrant/projects/praxis/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /vagrant/projects/praxis/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/projects/praxis/praxis/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/05 02:13:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /vagrant/projects/praxis/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /vagrant/projects/praxis/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/projects/praxis/praxis/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/05 02:13:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /vagrant/projects/praxis/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /vagrant/projects/praxis/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/projects/praxis/praxis/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/05 02:13:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /vagrant/projects/praxis/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /vagrant/projects/praxis/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/projects/praxis/praxis/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/05 02:13:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /vagrant/projects/praxis/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /vagrant/projects/praxis/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/projects/praxis/praxis/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/05 02:13:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /vagrant/projects/praxis/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /vagrant/projects/praxis/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/projects/praxis/praxis/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/05 02:13:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /vagrant/projects/praxis/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /vagrant/projects/praxis/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/projects/praxis/praxis/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/05 02:14:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /vagrant/projects/praxis/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /vagrant/projects/praxis/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/projects/praxis/praxis/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/05 02:14:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /vagrant/projects/praxis/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /vagrant/projects/praxis/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/projects/praxis/praxis/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/05 02:14:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /vagrant/projects/praxis/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /vagrant/projects/praxis/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/projects/praxis/praxis/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/05 02:14:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /vagrant/projects/praxis/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /vagrant/projects/praxis/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/projects/praxis/praxis/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/05 02:14:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /vagrant/projects/praxis/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /vagrant/projects/praxis/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/projects/praxis/praxis/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/05 02:17:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "index".' in /vagrant/projects/praxis/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('index')
+#1 /vagrant/projects/praxis/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/projects/praxis/praxis/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index/
+---
+2013/02/05 02:17:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /vagrant/projects/praxis/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /vagrant/projects/praxis/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/projects/praxis/praxis/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/05 02:20:34 [error] [exception.CException] exception 'CException' with message 'Alias "modules.index.index" is invalid. Make sure it points to an existing directory or file.' in /vagrant/projects/praxis/yii/framework/YiiBase.php:341
+Stack trace:
+#0 /vagrant/projects/praxis/yii/framework/YiiBase.php(196): YiiBase::import('modules.index.i...', true)
+#1 /vagrant/projects/praxis/yii/framework/base/CModule.php(282): YiiBase::createComponent('modules.index.i...', 'index', NULL, Array)
+#2 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(337): CModule->getModule('index')
+#3 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(276): CWebApplication->createController('index')
+#4 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('index')
+#5 /vagrant/projects/praxis/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#6 /vagrant/projects/praxis/praxis/index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/index/
+---
+2013/02/05 02:20:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /vagrant/projects/praxis/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /vagrant/projects/praxis/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/projects/praxis/praxis/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/05 02:20:53 [error] [exception.CException] exception 'CException' with message 'Yii application can only be created once.' in /vagrant/projects/praxis/yii/framework/YiiBase.php:152
+Stack trace:
+#0 /vagrant/projects/praxis/yii/framework/base/CApplication.php(129): YiiBase::setApplication(Object(CWebApplication))
+#1 /vagrant/projects/praxis/yii/framework/YiiBase.php(125): CApplication->__construct('/vagrant/projec...')
+#2 /vagrant/projects/praxis/yii/framework/YiiBase.php(98): YiiBase::createApplication('CWebApplication', '/vagrant/projec...')
+#3 /vagrant/projects/praxis/praxis/index.php(13): YiiBase::createWebApplication('/vagrant/projec...')
+#4 /vagrant/projects/praxis/yii/framework/YiiBase.php(421): include('/vagrant/projec...')
+#5 /vagrant/projects/praxis/yii/framework/YiiBase.php(296): YiiBase::autoload('index')
+#6 /vagrant/projects/praxis/yii/framework/YiiBase.php(196): YiiBase::import('index', true)
+#7 /vagrant/projects/praxis/yii/framework/base/CModule.php(282): YiiBase::createComponent('index', 'index', NULL, Array)
+#8 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(337): CModule->getModule('index')
+#9 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(276): CWebApplication->createController('index')
+#10 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('index')
+#11 /vagrant/projects/praxis/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#12 /vagrant/projects/praxis/praxis/index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/index/
+---
+2013/02/05 02:20:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /vagrant/projects/praxis/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /vagrant/projects/praxis/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/projects/praxis/praxis/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/05 02:21:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "index".' in /vagrant/projects/praxis/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('index')
+#1 /vagrant/projects/praxis/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/projects/praxis/praxis/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index/
+---
+2013/02/05 02:21:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /vagrant/projects/praxis/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /vagrant/projects/praxis/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/projects/praxis/praxis/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/05 02:21:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /vagrant/projects/praxis/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /vagrant/projects/praxis/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/projects/praxis/praxis/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
