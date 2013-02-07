@@ -9,7 +9,9 @@ class ModuleCode extends CCodeModel
 		return array_merge(parent::rules(), array(
 			array('moduleID', 'filter', 'filter'=>'trim'),
 			array('moduleID', 'required'),
-			array('moduleID', 'match', 'pattern'=>'/^\w+$/', 'message'=>'{attribute} should only contain word characters.'),
+			//array('moduleID', 'match', 'pattern'=>'/^\w+$/', 'message'=>'{attribute} should only contain word characters.'),
+			//allows it to accept dot caracters in the module's name
+			array('moduleID', 'match', 'pattern'=>'/^(\w|\.)+$/', 'message'=>'{attribute} should only contain word characters and dots.'),
 		));
 	}
 
@@ -82,13 +84,39 @@ EOD;
 		}
 	}
 
-	public function getModuleClass()
-	{
-		return ucfirst($this->moduleID).'Module';
-	}
+	//CORE VERSION YII
+	// public function getModuleClass()
+	// {
+	// 	return ucfirst($this->moduleID).'Module';
+	// }
 
-	public function getModulePath()
-	{
-		return Yii::app()->modulePath.DIRECTORY_SEPARATOR.$this->moduleID;
-	}
+	// public function getModulePath()
+	// {
+	// 	return Yii::app()->modulePath.DIRECTORY_SEPARATOR.$this->moduleID;
+	// }
+
+	//ADDED TO CHANGE GENERATE OF MODULES STRUCTURE TO NESTED MODULES
+    public function getModuleClass()
+    {
+        $dotPos=strpos($this->moduleID,".")>0 ? strrpos($this->moduleID,".")+1 : strpos($this->moduleID,".");
+        return ucfirst(substr($this->moduleID,$dotPos)).'Module';
+    }
+    public function getModulePath()
+    {
+    return Yii::app()->basePath.$this->getModuleRelativePath();
+    }
+
+	//function to get the relative path of the module
+    public function getModuleRelativePath(){
+	    $modulesFolder=substr(Yii::app()->modulePath,strrpos(Yii::app()->modulePath,DIRECTORY_SEPARATOR)+1);
+
+	    $modules = explode(".", $this->moduleID);
+	    $baseModule = array_shift($modules);
+
+	    foreach($modules as $module){
+	            @$path.=DIRECTORY_SEPARATOR.$modulesFolder.DIRECTORY_SEPARATOR.$baseModule.DIRECTORY_SEPARATOR.$module;
+	    }
+
+	    return $path;
+    }
 }

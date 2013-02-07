@@ -644,3 +644,738 @@ Stack trace:
 #3 {main}
 REQUEST_URI=/favicon.ico
 ---
+2013/02/07 01:21:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "yii".' in /vagrant/projects/praxis/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('yii')
+#1 /vagrant/projects/praxis/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/projects/praxis/praxis/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/
+---
+2013/02/07 01:58:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/main.css".' in /vagrant/projects/praxis/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('css/main.css')
+#1 /vagrant/projects/praxis/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/projects/praxis/praxis/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/main.css
+HTTP_REFERER=http://praxis.dev/
+---
+2013/02/07 01:58:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/screen.css".' in /vagrant/projects/praxis/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('css/screen.css')
+#1 /vagrant/projects/praxis/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/projects/praxis/praxis/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/screen.css
+HTTP_REFERER=http://praxis.dev/
+---
+2013/02/07 01:58:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/form.css".' in /vagrant/projects/praxis/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('css/form.css')
+#1 /vagrant/projects/praxis/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/projects/praxis/praxis/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/form.css
+HTTP_REFERER=http://praxis.dev/
+---
+2013/02/07 01:58:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/print.css".' in /vagrant/projects/praxis/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('css/print.css')
+#1 /vagrant/projects/praxis/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/projects/praxis/praxis/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/print.css
+HTTP_REFERER=http://praxis.dev/
+---
+2013/02/07 01:58:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/form.css".' in /vagrant/projects/praxis/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('css/form.css')
+#1 /vagrant/projects/praxis/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/projects/praxis/praxis/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/form.css
+HTTP_REFERER=http://praxis.dev/
+---
+2013/02/07 01:58:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/main.css".' in /vagrant/projects/praxis/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('css/main.css')
+#1 /vagrant/projects/praxis/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/projects/praxis/praxis/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/main.css
+HTTP_REFERER=http://praxis.dev/
+---
+2013/02/07 01:58:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/screen.css".' in /vagrant/projects/praxis/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('css/screen.css')
+#1 /vagrant/projects/praxis/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/projects/praxis/praxis/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/screen.css
+HTTP_REFERER=http://praxis.dev/
+---
+2013/02/07 01:58:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/print.css".' in /vagrant/projects/praxis/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('css/print.css')
+#1 /vagrant/projects/praxis/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/projects/praxis/praxis/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/print.css
+HTTP_REFERER=http://praxis.dev/
+---
+2013/02/07 01:58:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/screen.css".' in /vagrant/projects/praxis/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('css/screen.css')
+#1 /vagrant/projects/praxis/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/projects/praxis/praxis/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/screen.css
+HTTP_REFERER=http://praxis.dev/
+---
+2013/02/07 01:58:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/form.css".' in /vagrant/projects/praxis/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('css/form.css')
+#1 /vagrant/projects/praxis/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/projects/praxis/praxis/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/form.css
+HTTP_REFERER=http://praxis.dev/
+---
+2013/02/07 01:58:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/main.css".' in /vagrant/projects/praxis/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('css/main.css')
+#1 /vagrant/projects/praxis/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/projects/praxis/praxis/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/main.css
+HTTP_REFERER=http://praxis.dev/
+---
+2013/02/07 01:58:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/print.css".' in /vagrant/projects/praxis/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('css/print.css')
+#1 /vagrant/projects/praxis/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/projects/praxis/praxis/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/print.css
+HTTP_REFERER=http://praxis.dev/
+---
+2013/02/07 02:01:05 [error] [exception.CException] exception 'CException' with message 'Property "CHttpRequest.staticUrl" is not defined.' in /vagrant/projects/praxis/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /vagrant/projects/praxis/yii/framework/YiiBase.php(220): CComponent->__set('staticUrl', '/vagrant/projec...')
+#1 /vagrant/projects/praxis/yii/framework/base/CModule.php(386): YiiBase::createComponent(Array)
+#2 /vagrant/projects/praxis/yii/framework/base/CApplication.php(501): CModule->getComponent('request')
+#3 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(545): CApplication->getRequest()
+#4 /vagrant/projects/praxis/yii/framework/base/CApplication.php(154): CWebApplication->init()
+#5 /vagrant/projects/praxis/yii/framework/YiiBase.php(125): CApplication->__construct('/vagrant/projec...')
+#6 /vagrant/projects/praxis/yii/framework/YiiBase.php(98): YiiBase::createApplication('CWebApplication', '/vagrant/projec...')
+#7 /vagrant/projects/praxis/praxis/index.php(13): YiiBase::createWebApplication('/vagrant/projec...')
+#8 {main}
+REQUEST_URI=/
+---
+2013/02/07 02:13:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "public/css/css/form.css".' in /vagrant/projects/praxis/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('public/css/css/...')
+#1 /vagrant/projects/praxis/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/projects/praxis/praxis/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/public/css/css/form.css
+HTTP_REFERER=http://praxis.dev/
+---
+2013/02/07 02:13:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "public/css/css/screen.css".' in /vagrant/projects/praxis/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('public/css/css/...')
+#1 /vagrant/projects/praxis/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/projects/praxis/praxis/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/public/css/css/screen.css
+HTTP_REFERER=http://praxis.dev/
+---
+2013/02/07 02:13:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "public/css/css/main.css".' in /vagrant/projects/praxis/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('public/css/css/...')
+#1 /vagrant/projects/praxis/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/projects/praxis/praxis/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/public/css/css/main.css
+HTTP_REFERER=http://praxis.dev/
+---
+2013/02/07 02:13:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "public/css/css/print.css".' in /vagrant/projects/praxis/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('public/css/css/...')
+#1 /vagrant/projects/praxis/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/projects/praxis/praxis/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/public/css/css/print.css
+HTTP_REFERER=http://praxis.dev/
+---
+2013/02/07 02:13:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "praxis/public/css/css/screen.css".' in /vagrant/projects/praxis/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('praxis/public/c...')
+#1 /vagrant/projects/praxis/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/projects/praxis/praxis/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/praxis/public/css/css/screen.css
+HTTP_REFERER=http://praxis.dev/
+---
+2013/02/07 02:13:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "praxis/public/css/css/main.css".' in /vagrant/projects/praxis/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('praxis/public/c...')
+#1 /vagrant/projects/praxis/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/projects/praxis/praxis/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/praxis/public/css/css/main.css
+HTTP_REFERER=http://praxis.dev/
+---
+2013/02/07 02:13:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "praxis/public/css/css/form.css".' in /vagrant/projects/praxis/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('praxis/public/c...')
+#1 /vagrant/projects/praxis/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/projects/praxis/praxis/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/praxis/public/css/css/form.css
+HTTP_REFERER=http://praxis.dev/
+---
+2013/02/07 02:13:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "praxis/public/css/css/print.css".' in /vagrant/projects/praxis/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('praxis/public/c...')
+#1 /vagrant/projects/praxis/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/projects/praxis/praxis/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/praxis/public/css/css/print.css
+HTTP_REFERER=http://praxis.dev/
+---
+2013/02/07 02:14:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "praxis/public/css/css/screen.css".' in /vagrant/projects/praxis/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('praxis/public/c...')
+#1 /vagrant/projects/praxis/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/projects/praxis/praxis/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/praxis/public/css/css/screen.css
+---
+2013/02/07 02:14:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "praxis/public/css/css/form.css".' in /vagrant/projects/praxis/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('praxis/public/c...')
+#1 /vagrant/projects/praxis/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/projects/praxis/praxis/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/praxis/public/css/css/form.css
+HTTP_REFERER=http://praxis.dev/praxis/public/css/css/screen.css
+---
+2013/02/07 02:14:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "praxis/public/css/css/screen.css".' in /vagrant/projects/praxis/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('praxis/public/c...')
+#1 /vagrant/projects/praxis/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/projects/praxis/praxis/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/praxis/public/css/css/screen.css
+HTTP_REFERER=http://praxis.dev/praxis/public/css/css/screen.css
+---
+2013/02/07 02:14:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "praxis/public/css/css/main.css".' in /vagrant/projects/praxis/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('praxis/public/c...')
+#1 /vagrant/projects/praxis/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/projects/praxis/praxis/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/praxis/public/css/css/main.css
+HTTP_REFERER=http://praxis.dev/praxis/public/css/css/screen.css
+---
+2013/02/07 02:14:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "praxis/public/css/css/print.css".' in /vagrant/projects/praxis/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('praxis/public/c...')
+#1 /vagrant/projects/praxis/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/projects/praxis/praxis/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/praxis/public/css/css/print.css
+HTTP_REFERER=http://praxis.dev/praxis/public/css/css/screen.css
+---
+2013/02/07 02:15:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "praxis/public/css/css/screen.css".' in /vagrant/projects/praxis/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('praxis/public/c...')
+#1 /vagrant/projects/praxis/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/projects/praxis/praxis/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/praxis/public/css/css/screen.css
+---
+2013/02/07 02:15:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "praxis/public/css/praxis/public/css/css/form.css".' in /vagrant/projects/praxis/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('praxis/public/c...')
+#1 /vagrant/projects/praxis/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/projects/praxis/praxis/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/praxis/public/css/praxis/public/css/css/form.css
+HTTP_REFERER=http://praxis.dev/praxis/public/css/css/screen.css
+---
+2013/02/07 02:15:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "praxis/public/css/praxis/public/css/css/main.css".' in /vagrant/projects/praxis/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('praxis/public/c...')
+#1 /vagrant/projects/praxis/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/projects/praxis/praxis/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/praxis/public/css/praxis/public/css/css/main.css
+HTTP_REFERER=http://praxis.dev/praxis/public/css/css/screen.css
+---
+2013/02/07 02:15:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "praxis/public/css/praxis/public/css/css/screen.css".' in /vagrant/projects/praxis/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('praxis/public/c...')
+#1 /vagrant/projects/praxis/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/projects/praxis/praxis/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/praxis/public/css/praxis/public/css/css/screen.css
+HTTP_REFERER=http://praxis.dev/praxis/public/css/css/screen.css
+---
+2013/02/07 02:15:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "praxis/public/css/praxis/public/css/css/print.css".' in /vagrant/projects/praxis/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('praxis/public/c...')
+#1 /vagrant/projects/praxis/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/projects/praxis/praxis/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/praxis/public/css/praxis/public/css/css/print.css
+HTTP_REFERER=http://praxis.dev/praxis/public/css/css/screen.css
+---
+2013/02/07 02:15:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "praxis/public/css/css/main.css".' in /vagrant/projects/praxis/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('praxis/public/c...')
+#1 /vagrant/projects/praxis/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/projects/praxis/praxis/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/praxis/public/css/css/main.css
+HTTP_REFERER=http://praxis.dev/
+---
+2013/02/07 02:15:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "praxis/public/css/css/form.css".' in /vagrant/projects/praxis/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('praxis/public/c...')
+#1 /vagrant/projects/praxis/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/projects/praxis/praxis/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/praxis/public/css/css/form.css
+HTTP_REFERER=http://praxis.dev/
+---
+2013/02/07 02:15:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "praxis/public/css/css/screen.css".' in /vagrant/projects/praxis/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('praxis/public/c...')
+#1 /vagrant/projects/praxis/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/projects/praxis/praxis/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/praxis/public/css/css/screen.css
+HTTP_REFERER=http://praxis.dev/
+---
+2013/02/07 02:15:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "praxis/public/css/css/print.css".' in /vagrant/projects/praxis/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('praxis/public/c...')
+#1 /vagrant/projects/praxis/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/projects/praxis/praxis/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/praxis/public/css/css/print.css
+HTTP_REFERER=http://praxis.dev/
+---
+2013/02/07 02:17:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "public/css/css/screen.css".' in /vagrant/projects/praxis/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('public/css/css/...')
+#1 /vagrant/projects/praxis/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/projects/praxis/praxis/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/public/css/css/screen.css
+---
+2013/02/07 02:17:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "public/css/praxis/public/css/css/screen.css".' in /vagrant/projects/praxis/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('public/css/prax...')
+#1 /vagrant/projects/praxis/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/projects/praxis/praxis/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/public/css/praxis/public/css/css/screen.css
+HTTP_REFERER=http://praxis.dev/public/css/css/screen.css
+---
+2013/02/07 02:17:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "public/css/praxis/public/css/css/main.css".' in /vagrant/projects/praxis/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('public/css/prax...')
+#1 /vagrant/projects/praxis/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/projects/praxis/praxis/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/public/css/praxis/public/css/css/main.css
+HTTP_REFERER=http://praxis.dev/public/css/css/screen.css
+---
+2013/02/07 02:17:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "public/css/praxis/public/css/css/form.css".' in /vagrant/projects/praxis/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('public/css/prax...')
+#1 /vagrant/projects/praxis/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/projects/praxis/praxis/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/public/css/praxis/public/css/css/form.css
+HTTP_REFERER=http://praxis.dev/public/css/css/screen.css
+---
+2013/02/07 02:17:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "public/css/praxis/public/css/css/print.css".' in /vagrant/projects/praxis/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('public/css/prax...')
+#1 /vagrant/projects/praxis/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/projects/praxis/praxis/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/public/css/praxis/public/css/css/print.css
+HTTP_REFERER=http://praxis.dev/public/css/css/screen.css
+---
+2013/02/07 02:17:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/css/screen.css".' in /vagrant/projects/praxis/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('css/css/screen....')
+#1 /vagrant/projects/praxis/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/projects/praxis/praxis/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/css/screen.css
+---
+2013/02/07 02:17:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/praxis/public/css/css/main.css".' in /vagrant/projects/praxis/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('css/praxis/publ...')
+#1 /vagrant/projects/praxis/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/projects/praxis/praxis/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/praxis/public/css/css/main.css
+HTTP_REFERER=http://praxis.dev/css/css/screen.css
+---
+2013/02/07 02:17:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/praxis/public/css/css/form.css".' in /vagrant/projects/praxis/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('css/praxis/publ...')
+#1 /vagrant/projects/praxis/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/projects/praxis/praxis/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/praxis/public/css/css/form.css
+HTTP_REFERER=http://praxis.dev/css/css/screen.css
+---
+2013/02/07 02:17:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/praxis/public/css/css/screen.css".' in /vagrant/projects/praxis/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('css/praxis/publ...')
+#1 /vagrant/projects/praxis/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/projects/praxis/praxis/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/praxis/public/css/css/screen.css
+HTTP_REFERER=http://praxis.dev/css/css/screen.css
+---
+2013/02/07 02:17:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/praxis/public/css/css/print.css".' in /vagrant/projects/praxis/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('css/praxis/publ...')
+#1 /vagrant/projects/praxis/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/projects/praxis/praxis/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/praxis/public/css/css/print.css
+HTTP_REFERER=http://praxis.dev/css/css/screen.css
+---
+2013/02/07 02:22:09 [error] [exception.CException] exception 'CException' with message 'Property "CHttpRequest.staticUrl" is not defined.' in /vagrant/projects/praxis/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /vagrant/projects/praxis/yii/framework/YiiBase.php(220): CComponent->__set('staticUrl', '/vagrant/projec...')
+#1 /vagrant/projects/praxis/yii/framework/base/CModule.php(386): YiiBase::createComponent(Array)
+#2 /vagrant/projects/praxis/yii/framework/base/CApplication.php(501): CModule->getComponent('request')
+#3 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(545): CApplication->getRequest()
+#4 /vagrant/projects/praxis/yii/framework/base/CApplication.php(154): CWebApplication->init()
+#5 /vagrant/projects/praxis/yii/framework/YiiBase.php(125): CApplication->__construct('/vagrant/projec...')
+#6 /vagrant/projects/praxis/yii/framework/YiiBase.php(98): YiiBase::createApplication('CWebApplication', '/vagrant/projec...')
+#7 /vagrant/projects/praxis/praxis/index.php(13): YiiBase::createWebApplication('/vagrant/projec...')
+#8 {main}
+REQUEST_URI=/
+---
+2013/02/07 02:22:10 [error] [exception.CException] exception 'CException' with message 'Property "CHttpRequest.staticUrl" is not defined.' in /vagrant/projects/praxis/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /vagrant/projects/praxis/yii/framework/YiiBase.php(220): CComponent->__set('staticUrl', '/vagrant/projec...')
+#1 /vagrant/projects/praxis/yii/framework/base/CModule.php(386): YiiBase::createComponent(Array)
+#2 /vagrant/projects/praxis/yii/framework/base/CApplication.php(501): CModule->getComponent('request')
+#3 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(545): CApplication->getRequest()
+#4 /vagrant/projects/praxis/yii/framework/base/CApplication.php(154): CWebApplication->init()
+#5 /vagrant/projects/praxis/yii/framework/YiiBase.php(125): CApplication->__construct('/vagrant/projec...')
+#6 /vagrant/projects/praxis/yii/framework/YiiBase.php(98): YiiBase::createApplication('CWebApplication', '/vagrant/projec...')
+#7 /vagrant/projects/praxis/praxis/index.php(13): YiiBase::createWebApplication('/vagrant/projec...')
+#8 {main}
+REQUEST_URI=/
+---
+2013/02/07 02:22:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "praxis/public/css/css/form.css".' in /vagrant/projects/praxis/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('praxis/public/c...')
+#1 /vagrant/projects/praxis/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/projects/praxis/praxis/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/praxis/public/css/css/form.css
+HTTP_REFERER=http://praxis.dev/
+---
+2013/02/07 02:22:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "praxis/public/css/css/screen.css".' in /vagrant/projects/praxis/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('praxis/public/c...')
+#1 /vagrant/projects/praxis/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/projects/praxis/praxis/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/praxis/public/css/css/screen.css
+HTTP_REFERER=http://praxis.dev/
+---
+2013/02/07 02:22:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "praxis/public/css/css/main.css".' in /vagrant/projects/praxis/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('praxis/public/c...')
+#1 /vagrant/projects/praxis/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/projects/praxis/praxis/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/praxis/public/css/css/main.css
+HTTP_REFERER=http://praxis.dev/
+---
+2013/02/07 02:22:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "praxis/public/css/css/print.css".' in /vagrant/projects/praxis/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('praxis/public/c...')
+#1 /vagrant/projects/praxis/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/projects/praxis/praxis/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/praxis/public/css/css/print.css
+HTTP_REFERER=http://praxis.dev/
+---
+2013/02/07 02:34:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "praxis/public/css/css/screen.css".' in /vagrant/projects/praxis/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('praxis/public/c...')
+#1 /vagrant/projects/praxis/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/projects/praxis/praxis/public/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/praxis/public/css/css/screen.css
+HTTP_REFERER=http://praxis.dev/
+---
+2013/02/07 02:34:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "praxis/public/css/css/form.css".' in /vagrant/projects/praxis/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('praxis/public/c...')
+#1 /vagrant/projects/praxis/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/projects/praxis/praxis/public/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/praxis/public/css/css/form.css
+HTTP_REFERER=http://praxis.dev/
+---
+2013/02/07 02:34:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "praxis/public/css/css/main.css".' in /vagrant/projects/praxis/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('praxis/public/c...')
+#1 /vagrant/projects/praxis/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/projects/praxis/praxis/public/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/praxis/public/css/css/main.css
+HTTP_REFERER=http://praxis.dev/
+---
+2013/02/07 02:34:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "praxis/public/css/css/print.css".' in /vagrant/projects/praxis/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('praxis/public/c...')
+#1 /vagrant/projects/praxis/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/projects/praxis/praxis/public/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/praxis/public/css/css/print.css
+HTTP_REFERER=http://praxis.dev/
+---
+2013/02/07 02:35:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "public/css/css/main.css".' in /vagrant/projects/praxis/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('public/css/css/...')
+#1 /vagrant/projects/praxis/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/projects/praxis/praxis/public/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/public/css/css/main.css
+HTTP_REFERER=http://praxis.dev/
+---
+2013/02/07 02:35:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "public/css/css/form.css".' in /vagrant/projects/praxis/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('public/css/css/...')
+#1 /vagrant/projects/praxis/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/projects/praxis/praxis/public/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/public/css/css/form.css
+HTTP_REFERER=http://praxis.dev/
+---
+2013/02/07 02:35:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "public/css/css/screen.css".' in /vagrant/projects/praxis/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('public/css/css/...')
+#1 /vagrant/projects/praxis/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/projects/praxis/praxis/public/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/public/css/css/screen.css
+HTTP_REFERER=http://praxis.dev/
+---
+2013/02/07 02:35:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "public/css/css/print.css".' in /vagrant/projects/praxis/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('public/css/css/...')
+#1 /vagrant/projects/praxis/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/projects/praxis/praxis/public/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/public/css/css/print.css
+HTTP_REFERER=http://praxis.dev/
+---
+2013/02/07 02:35:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "public/css/css/form.css".' in /vagrant/projects/praxis/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('public/css/css/...')
+#1 /vagrant/projects/praxis/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/projects/praxis/praxis/public/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/public/css/css/form.css
+HTTP_REFERER=http://praxis.dev/
+---
+2013/02/07 02:35:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "public/css/css/main.css".' in /vagrant/projects/praxis/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('public/css/css/...')
+#1 /vagrant/projects/praxis/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/projects/praxis/praxis/public/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/public/css/css/main.css
+HTTP_REFERER=http://praxis.dev/
+---
+2013/02/07 02:35:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "public/css/css/screen.css".' in /vagrant/projects/praxis/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('public/css/css/...')
+#1 /vagrant/projects/praxis/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/projects/praxis/praxis/public/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/public/css/css/screen.css
+HTTP_REFERER=http://praxis.dev/
+---
+2013/02/07 02:35:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "public/css/css/print.css".' in /vagrant/projects/praxis/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('public/css/css/...')
+#1 /vagrant/projects/praxis/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/projects/praxis/praxis/public/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/public/css/css/print.css
+HTTP_REFERER=http://praxis.dev/
+---
+2013/02/07 02:36:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "public/css/screen.css".' in /vagrant/projects/praxis/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('public/css/scre...')
+#1 /vagrant/projects/praxis/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/projects/praxis/praxis/public/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/public/css/screen.css
+HTTP_REFERER=http://praxis.dev/
+---
+2013/02/07 02:36:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "public/css/main.css".' in /vagrant/projects/praxis/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('public/css/main...')
+#1 /vagrant/projects/praxis/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/projects/praxis/praxis/public/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/public/css/main.css
+HTTP_REFERER=http://praxis.dev/
+---
+2013/02/07 02:36:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "public/css/form.css".' in /vagrant/projects/praxis/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('public/css/form...')
+#1 /vagrant/projects/praxis/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/projects/praxis/praxis/public/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/public/css/form.css
+HTTP_REFERER=http://praxis.dev/
+---
+2013/02/07 02:36:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "public/css/print.css".' in /vagrant/projects/praxis/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('public/css/prin...')
+#1 /vagrant/projects/praxis/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/projects/praxis/praxis/public/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/public/css/print.css
+HTTP_REFERER=http://praxis.dev/
+---
+2013/02/07 02:36:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "public/css/screen.css".' in /vagrant/projects/praxis/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('public/css/scre...')
+#1 /vagrant/projects/praxis/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/projects/praxis/praxis/public/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/public/css/screen.css
+---
+2013/02/07 02:36:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "public/public/css/screen.css".' in /vagrant/projects/praxis/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('public/public/c...')
+#1 /vagrant/projects/praxis/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/projects/praxis/praxis/public/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/public/public/css/screen.css
+HTTP_REFERER=http://praxis.dev/public/css/screen.css
+---
+2013/02/07 02:36:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "public/public/css/form.css".' in /vagrant/projects/praxis/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('public/public/c...')
+#1 /vagrant/projects/praxis/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/projects/praxis/praxis/public/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/public/public/css/form.css
+HTTP_REFERER=http://praxis.dev/public/css/screen.css
+---
+2013/02/07 02:36:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "public/public/css/main.css".' in /vagrant/projects/praxis/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('public/public/c...')
+#1 /vagrant/projects/praxis/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/projects/praxis/praxis/public/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/public/public/css/main.css
+HTTP_REFERER=http://praxis.dev/public/css/screen.css
+---
+2013/02/07 02:36:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "public/public/css/print.css".' in /vagrant/projects/praxis/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('public/public/c...')
+#1 /vagrant/projects/praxis/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/projects/praxis/praxis/public/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/public/public/css/print.css
+HTTP_REFERER=http://praxis.dev/public/css/screen.css
+---
+2013/02/07 02:37:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/css/main.css".' in /vagrant/projects/praxis/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('css/css/main.cs...')
+#1 /vagrant/projects/praxis/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/projects/praxis/praxis/public/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/css/main.css
+HTTP_REFERER=http://praxis.dev/
+---
+2013/02/07 02:37:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/css/screen.css".' in /vagrant/projects/praxis/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('css/css/screen....')
+#1 /vagrant/projects/praxis/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/projects/praxis/praxis/public/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/css/screen.css
+HTTP_REFERER=http://praxis.dev/
+---
+2013/02/07 02:37:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/css/form.css".' in /vagrant/projects/praxis/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('css/css/form.cs...')
+#1 /vagrant/projects/praxis/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/projects/praxis/praxis/public/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/css/form.css
+HTTP_REFERER=http://praxis.dev/
+---
+2013/02/07 02:37:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/css/print.css".' in /vagrant/projects/praxis/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('css/css/print.c...')
+#1 /vagrant/projects/praxis/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/projects/praxis/praxis/public/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/css/print.css
+HTTP_REFERER=http://praxis.dev/
+---
+2013/02/07 02:38:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "form.css".' in /vagrant/projects/praxis/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('form.css')
+#1 /vagrant/projects/praxis/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/projects/praxis/praxis/public/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/form.css
+HTTP_REFERER=http://praxis.dev/
+---
+2013/02/07 02:38:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "screen.css".' in /vagrant/projects/praxis/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('screen.css')
+#1 /vagrant/projects/praxis/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/projects/praxis/praxis/public/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/screen.css
+HTTP_REFERER=http://praxis.dev/
+---
+2013/02/07 02:38:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "main.css".' in /vagrant/projects/praxis/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('main.css')
+#1 /vagrant/projects/praxis/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/projects/praxis/praxis/public/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/main.css
+HTTP_REFERER=http://praxis.dev/
+---
+2013/02/07 02:38:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "print.css".' in /vagrant/projects/praxis/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/projects/praxis/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('print.css')
+#1 /vagrant/projects/praxis/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/projects/praxis/praxis/public/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/print.css
+HTTP_REFERER=http://praxis.dev/
+---

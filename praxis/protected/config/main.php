@@ -27,12 +27,6 @@ return array(
 			// If removed, Gii defaults to localhost only. Edit carefully to taste.
 			'ipFilters'=>array('33.33.33.*'),
 		),
-		'base' => array(),
-		'index' => array(),
-		'cms' => array(),
-		'customers' => array(),
-		'webservices' => array(),
-		'products' => array(),
 		
 	),
 
